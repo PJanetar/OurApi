@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                       /* Control what method is used to detect module-format JS files. */
+
+    /* Modules */
+    "module": "commonjs",            /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true,                    /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true,
+    "outDir": "./dist"                      /* Skip type checking all .d.ts files. */
+  }
+}
